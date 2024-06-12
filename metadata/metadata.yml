@@ -1,5 +1,8 @@
 metadata_version: 1
 name: TREND 2024
-description: Basic structure of a capsule to be customized as needed.
+description: Course content for Allen tutorial at TReND-Camina 2024 course
 authors:
-- name: AIND
+- name: Tom Chartrand
+- name: Po-Chen Kuo
+- name: Saskia de Vries
+- name: Michael Buice
