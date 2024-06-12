@@ -1,3 +1,2 @@
-# aind-capsule-template
+# Allen content for TReND-Camina course for 2024
 
-Basic structure of a capsule to be customized as needed.
