@@ -1,0 +1,51 @@
+
+
+Meta Exercise:  
+1. for any computation of a single cell property, compare that property across areas, layers, and cre lines.
+2. for any exercise, repeat that exercise on neuropixels (or calcium)
+
+Exercises:
+
+1. Compute image selectivity (or lifetime sparsity of responses) for a single neuron's response to natural scenes.  Compute a similar thing for drifting grating responses.  Compare these two metrics for a given cell.
+
+2. Compute tuning curves for static gratings. Compute the optimal orientation response for both drifting and static gratings.  Are these the same for a given neuron?  For how many neurons do they differ?
+    (do you need to think about spatial frequency for static gratings in the same way we did for temporal frequency and drifting gratings?  yes...)
+    
+3.  How well does a "tuning curve" predict the response of a neuron?
+    a. what does this question mean?  we need i) a model and ii) held-out data
+    b. how do we fit the model?  regression (scikit learn exercise)
+    c. test the model
+    d. (advanced) cross validation
+    
+4. Compute spatial distributions of single cell properties.  Is there a spatial correlation in the data?
+    a. take roi locations from masks
+    b. compute whatever single cell property (selectivity, preffered stimulus, etc.)
+    c. plot heat map of the property over the max projection
+    d. Compute the 2d correlation of the property over space. (2d auto-correlation of heat map)
+    
+5. Plot the "running tuning curve" for a neuron.
+    (could also repeat many of the above exercises with running tuning curves)
+    (if you've done the regression exercise, can you add running as an additional regressor)
+       
+6. How correlated are neurons activity?
+    a. compute "signal" and "noise" correlations for a given pair of neurons.
+     
+7. Compute the trace of the response to a presentation of one of the natural movies.
+    a. compute the trial average
+    b. compute the correlations across trials.
+    
+8. for natural movies and scenes, compute the "stimulus triggered average" (this is likely to be messy and uninteresting, I think)
+
+9. Compute receptive fields from locally sparse noise
+    How are these distributed across space?
+    how are these related to tuning curve properties (if at all)?
+    
+10. What is the "dimension" of neural activity?
+    a. participation ratio
+    b. PCA
+    c. compare stimuli/areas/layers/cre lines
+    
+11. Do responses change over time?
+    a. compute tuning curves as a function of time through the data set (i.e. tuning curve on first 20% presentations, next 20%, etc. or something similar)
+    
+12. 
