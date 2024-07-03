@@ -48,4 +48,12 @@ Exercises:
 11. Do responses change over time?
     a. compute tuning curves as a function of time through the data set (i.e. tuning curve on first 20% presentations, next 20%, etc. or something similar)
     
-12. 
+12. Since there's an RNN tutorial: fit an RNN to data from epochs for a given stimulus type and for spontaneous activity.
+    a. is there a difference in the learned weights?
+    b. Does the activity reflect the different stimulus presentations?
+
+13. If you've fit some simple regression or decoding models and want to try your hand at the deep learning material, repeat the regression or decoding exercises with a multilayer network.  
+    a. does this model work better or worse than your simple model?
+    b. how do you compare the two models?
+
+14. 
