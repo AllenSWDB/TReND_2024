@@ -1,5 +1,0 @@
-Ideas for some simple exercises:
-
-1. plot max projection images for a handful of experiment sessions. What's different (namely density of neurons). 
-1b. Pick a few Cre lines and get the average number of cells in a session for that Cre line. Why do these vary?
-
