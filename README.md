@@ -9,5 +9,7 @@ The capsule has four notebooks:
 - Day 2 - neural variability.ipynb
 - Day 2 - population decoding.ipynb
 
-More information on the Dataset can be found in our JupyterBook: https://allenswdb.github.io/physiology/ophys/visual-coding/vc2p-background.html
+The `Solutions` folder contains completed versions of these notebooks.
+
+More information on the dataset can be found in our JupyterBook: https://allenswdb.github.io/physiology/ophys/visual-coding/vc2p-background.html
 as well as on the web viewer for these data: https://observatory.brain-map.org/visualcoding/
