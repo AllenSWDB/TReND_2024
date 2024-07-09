@@ -1,12 +1,16 @@
 
 
 Meta Exercise:  
-1. for any computation of a single cell property, compare that property across areas, layers, and cre lines.
+1. for any computation of a single cell property, compare that property across areas, layers, and cre lines. (define layers, point to excitatory vs inhibitory, ignore RL)
 2. for any exercise, repeat that exercise on neuropixels (or calcium)
 
 Exercises:
 
 1. Compute image selectivity (or lifetime sparsity of responses) for a single neuron's response to natural scenes.  Compute a similar thing for drifting grating responses.  Compare these two metrics for a given cell.
+
+    (come up with metrics to describe tuning properties)
+    (make a datatable of metrics)
+
 
 2. Compute tuning curves for static gratings. Compute the optimal orientation response for both drifting and static gratings.  Are these the same for a given neuron?  For how many neurons do they differ?
     (do you need to think about spatial frequency for static gratings in the same way we did for temporal frequency and drifting gratings?  yes...)
@@ -18,12 +22,13 @@ Exercises:
     d. (advanced) cross validation
     
 4. Compute spatial distributions of single cell properties.  Is there a spatial correlation in the data?
-    a. take roi locations from masks
+    a. take roi locations from masks (compute spatial coordinates; distances between cells; densities)
     b. compute whatever single cell property (selectivity, preffered stimulus, etc.)
     c. plot heat map of the property over the max projection
     d. Compute the 2d correlation of the property over space. (2d auto-correlation of heat map)
     
 5. Plot the "running tuning curve" for a neuron.
+    (two different ideas:  response vs running OR orientation tunign for running vs not)
     (could also repeat many of the above exercises with running tuning curves)
     (if you've done the regression exercise, can you add running as an additional regressor)
        
@@ -38,7 +43,7 @@ Exercises:
 
 9. Compute receptive fields from locally sparse noise
     How are these distributed across space?
-    how are these related to tuning curve properties (if at all)?
+   XXX how are these related to tuning curve properties (if at all)?
     
 10. What is the "dimension" of neural activity?
     a. participation ratio
